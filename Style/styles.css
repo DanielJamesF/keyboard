@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body{
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+}
+#output{
+  border: 2px solid black;
+  height: 5rem;
+  padding: 2rem;
+}
+#buttons{
+   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* width: 100%; */
+}
+button{
+  border: none;
+  padding: 20px;
+  margin: 5px;
+  flex-grow: 1;
+  min-width: 100px;
+}
